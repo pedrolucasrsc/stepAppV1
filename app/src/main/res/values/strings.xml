@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">StepAppV1</string>
+    <string name="counter_action_start">Count</string>
+    <string name="counter_action_stop">Stop Counting</string>
+    <string name="start_action_start">Start</string>
+    <string name="start_action_stop">Stop</string>
+    <string name="number_of_steps">0</string>
+    <string name="counterStarted">The app started counting your steps!</string>
+</resources>
