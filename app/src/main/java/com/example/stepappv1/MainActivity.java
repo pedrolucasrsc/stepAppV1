@@ -32,6 +32,8 @@ public class MainActivity extends AppCompatActivity {
     public void startCounter(View view) {
         Toast toast = Toast.makeText(this, R.string.counterStarted, Toast.LENGTH_LONG);
         toast.show();
+        stepCounter = 0;
+        showCount.setText(String.format("%d", stepCounter));
     }
 
     public void countUp(View view) {
